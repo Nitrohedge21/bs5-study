@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 
-
-
 :root{
     --bs-body-font-family: "Alegreya", serif;
     --bs-body-font-optical-sizing: auto;
@@ -11,9 +9,24 @@
     background-size: cover;
 }
 
+body {
+    min-height: 100vh; /* 100% of the Viewport Height */
+    display: flex;
+    flex-direction: column;
+}
 
-footer{
+main {
+    flex: 1; /* This pushes the footer to the very bottom of the screen */
+}
+
+.footer{
     text-align: center;
+}
+
+.footer-icons{
+    width: 30px;
+    height: 20px;
+    padding-right: 10px;
 }
 
 @media screen and (max-width: 800px) {
