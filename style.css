@@ -2,12 +2,15 @@
 
 
 
-:root   {
-    font-family: "Alegreya", serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
+:root{
+    --bs-body-font-family: "Alegreya", serif;
+    --bs-body-font-optical-sizing: auto;
+    --bs-body-font-weight: normal;
+    font-style: oblique;
     background-attachment: fixed;
     background-size: cover;
+}
+
+footer{
     text-align: center;
 }
