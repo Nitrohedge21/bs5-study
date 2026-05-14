@@ -7,6 +7,7 @@
     font-style: oblique;
     background-attachment: fixed;
     background-size: cover;
+    width: auto;
 }
 
 body {
@@ -29,6 +30,33 @@ main {
     padding-right: 10px;
 }
 
+.center-text{
+    text-align: justify;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    
+
+    .center-text{
+    text-align: justify;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+}
+
 @media screen and (max-width: 800px) {
     
+
+    .center-text{
+    text-align: justify;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
 }
