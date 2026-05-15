@@ -32,7 +32,7 @@ main {
 
 .center-text{
     text-align: justify;
-    width: 1000px;
+    width: 100vh;
     margin-right: auto;
     margin-left: auto;
 }
@@ -42,7 +42,7 @@ main {
 
     .center-text{
     text-align: justify;
-    width: 700px;
+    width: 70vh;
     margin-right: auto;
     margin-left: auto;
     }
@@ -54,7 +54,7 @@ main {
 
     .center-text{
     text-align: justify;
-    width: 500px;
+    width: 50vh;
     margin-right: auto;
     margin-left: auto;
     }
